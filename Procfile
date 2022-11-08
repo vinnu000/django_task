@@ -1,1 +1,1 @@
-web: gunicorn django_task.wsgi --log-fin -
+web: gunicorn django_task.wsgi --log-file -
