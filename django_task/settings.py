@@ -126,6 +126,8 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
+LOGIN_URL = 'login'
+
 # Message Tags to define there level.
 MESSAGE_TAGS = {
     messages.DEBUG: 'btn-info',
